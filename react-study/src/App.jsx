@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 // import './App.css'
-import Basic01 from './components/Basic01.jsx'
+import Quiz0611 from './quiz/quiz0611.jsx'
 
 function App() {
   return (
     <div className="App">
       {/* 원래 있던 로고나 글자들을 다 지우고 아래 한 줄만 남기세요 */}
-      <Basic01 />
+      <Quiz0611 />
     </div>
   );
 }
