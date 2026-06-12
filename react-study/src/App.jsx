@@ -5,12 +5,13 @@ import heroImg from './assets/hero.png'
 // import './App.css'
 import State01 from './components/State01'
 import Export01 from './components/Export01'
+import State02 from './components/State02'
 
 function App() {
   return (
     <div className="App">
       {/* 원래 있던 로고나 글자들을 다 지우고 아래 한 줄만 남기세요 */}
-      <Export01 />
+      <State02 />
     </div>
   );
 }
