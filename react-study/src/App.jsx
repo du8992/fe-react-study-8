@@ -6,12 +6,15 @@ import heroImg from './assets/hero.png'
 import State01 from './components/State01'
 import Export01 from './components/Export01'
 import State02 from './components/State02'
+import State03 from './components/State03'
+import Props01 from './components/Props01.jsx'
 
 function App() {
+  const[count, setCount] = useState(0)
   return (
     <div className="App">
       {/* 원래 있던 로고나 글자들을 다 지우고 아래 한 줄만 남기세요 */}
-      <State02 />
+      <Props01 />
     </div>
   );
 }
