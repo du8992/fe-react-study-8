@@ -4,13 +4,14 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Quiz01 from '../Quiz01.jsx'
+import Quiz0616 from './Quiz0616.jsx'
 
 function App() {
   return (
     <div>
       {/* 2. 여기에 반드시 <Quiz01 />이 포함되어 있어야 합니다! */}
       
-      <Quiz01 /> 
+      <Quiz0616 /> 
     </div>
   );
 }
