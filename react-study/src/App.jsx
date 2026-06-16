@@ -8,13 +8,14 @@ import Export01 from './components/Export01'
 import State02 from './components/State02'
 import State03 from './components/State03'
 import Props01 from './components/Props01.jsx'
+import FoodMarket from './foodmarket/FoodMarket.jsx'
 
 function App() {
   const[count, setCount] = useState(0)
   return (
     <div className="App">
       {/* 원래 있던 로고나 글자들을 다 지우고 아래 한 줄만 남기세요 */}
-      <Props01 />
+      <FoodMarket />
     </div>
   );
 }
